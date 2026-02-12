@@ -49,7 +49,7 @@ export default function HismaSection() {
                     className="group relative block h-[220px] md:h-[360px] overflow-hidden rounded-sm border border-white/15"
                 >
                     <Image
-                        src="/explore-arabia"
+                        src="/explore-arabia.jpg"
                         alt="Explore Saudi Arabia"
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
