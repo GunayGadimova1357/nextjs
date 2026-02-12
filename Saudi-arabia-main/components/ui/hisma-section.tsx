@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HismaSection() {
     return (
-        <section className="bg-black text-white pt-12">
+        <section className="bg-black text-white pt-12 pb-12 md:pb-16">
             <div className="container mx-auto px-4">
                 <div className="relative h-[420px] md:h-[560px] overflow-hidden rounded-sm">
                     <Image
@@ -67,35 +67,6 @@ export default function HismaSection() {
                     </div>
                 </Link>
             </div>
-
-            <footer className="mt-12 border-t border-white/10 bg-[#1f1f22]">
-                <div className="container mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-4 gap-10">
-                    <div>
-                        <Image src="/logo.png" alt="Saudi Welcome to Arabia" width={190} height={92} />
-                    </div>
-
-                    <div className="space-y-2">
-                        <h4 className="font-semibold text-xl">About</h4>
-                        <p className="text-white/85">About us</p>
-                        <p className="text-white/85">Features</p>
-                        <p className="text-white/85">News & Blogs</p>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h4 className="font-semibold text-xl">Contact</h4>
-                        <p className="text-white/85">Instagram</p>
-                        <p className="text-white/85">Twitter</p>
-                        <p className="text-white/85">Facebook</p>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h4 className="font-semibold text-xl">Support</h4>
-                        <p className="text-white/85">FAQs</p>
-                        <p className="text-white/85">Support Centre</p>
-                        <p className="text-white/85">Feedback</p>
-                    </div>
-                </div>
-            </footer>
         </section>
     );
 }

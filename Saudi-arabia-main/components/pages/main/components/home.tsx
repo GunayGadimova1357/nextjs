@@ -1,7 +1,7 @@
 import Hero from "@/components/ui/hero";
 import { CarouselSlider } from "./carousel";
 import Destenations from "../../components/destenations";
-import HismaSection from "./hisma-section";
+import HismaSection from "@/components/ui/hisma-section";
 
 export default function HomePage() {
     return (
